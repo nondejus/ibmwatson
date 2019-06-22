@@ -1,4 +1,20 @@
-# Evangelizing [IBM Watson](https://www.ibm.com/watson), the enterprise A.I. platform from IBM.
+# Evangelizing [IBM Watson](https://www.ibm.com/watson), the enterprise A.I. platform from IBM
+
+<details>
+  <summary>Table of Contents</summary>
+
+  * [References](#references-about-ibm-watson)
+  * [Services provided by IBM Watson](#services-provided-by-ibm-watson)
+    * [Sub-level](#sublevel)
+  * [Services within WDC](#services-within-wdc)
+  * [Tutorial](#tutorial)
+  * [Watson Services](#watson-services)
+  * [Authentication Tokens](#authentication-tokens)
+  * [Documentation](#documentation)
+  * [Questions](#questions)
+  * [Open Source @ IBM](#open-source--ibm)
+  * [IBM Watson usage across the world](#ibm-watson-usage-across-the-world)
+</details>
 
 ## References about IBM Watson
 - [Wikipedia](https://en.wikipedia.org/wiki/Watson_(computer))
@@ -56,3 +72,21 @@ If you need more information about the V1 API, you can go to the [Watson Assista
 
 
 
+## Documentation
+You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
+
+## Questions
+If you are having difficulties using the APIs or have a question about the IBM Watson Services, please ask a question on
+[dW Answers](https://developer.ibm.com/answers/questions/ask/?topics=watson)
+or [Stack Overflow](http://stackoverflow.com/questions/ask?tags=ibm-watson).
+
+## Open Source @ IBM
+Find more open source projects on the [IBM Github Page](http://ibm.github.io/).
+
+# IBM Watson usage across the world
+## Industries
+### Health
+### Finance
+
+## Fun
+### Your kool project here
