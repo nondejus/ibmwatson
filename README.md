@@ -1,40 +1,33 @@
-# ibmwatson
+# Evangelizing [IBM Watson](https://www.ibm.com/watson), the enterprise A.I. platform from IBM.
 
-## Evangelizing IBM Watson, the enterprise A.I. platform from IBM.
-
-### References about IBM Watson
-- [Official portal](https://www.ibm.com/watson)
+## References about IBM Watson
 - [Wikipedia](https://en.wikipedia.org/wiki/Watson_(computer))
 - [YouTube channel](https://www.youtube.com/user/IBMWatsonSolutions)
 - [StackOverflow](https://stackoverflow.com/questions/tagged/ibm-watson)
 - [GitHub](https://github.com/IBM-Watson)
 
-### Services provided by IBM Watson
+## Services provided by IBM Watson
 - Watson Developer Cloud (WDC)
 - Watson Studio
 
-### Services within WDC
-- Assistant
-- Language (NLP)
-- Discovery
+## Services within WDC
 - Assistant V1
 - Assistant V2
 - Compare Comply V1
 - Discovery
-    Language Translator V3
-    Natural Language Classifier
-    Natural Language Understanding
-    Personality Insights
-    Speech to Text
-    Text to Speech
-    Tone Analyzer
-    Visual Recognition
+- Language Translator V3
+- Natural Language Classifier
+- Natural Language Understanding
+- Personality Insights
+- Speech to Text
+- Text to Speech
+- Tone Analyzer
+- Visual Recognition
 
-
-### Tutorial
+# Tutorial
 IBM Watson Develop CLoud(WDC) provides a collection of REST API's and SDK's that can be used to integrate AI into your applications!
 
-#### SDK's provided by WDC
+## SDK's provided by WDC
 Each SDK is a client library to quickly get started with the various Watson APIs services.
 
 - Python
