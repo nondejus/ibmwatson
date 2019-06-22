@@ -1,4 +1,7 @@
 # Evangelizing [IBM Watson](https://www.ibm.com/watson), the enterprise A.I. platform from IBM
+IBM Watson is named after IBM's first CEO, industrialist Thomas J. Watson.
+
+Watson came to highlight after winning $1 million in QnA tournament Jeopardy! of 2012, against legendary champions Brad Rutter and Ken Jennings.
 
 <details>
   <summary>Table of Contents</summary>
@@ -22,9 +25,12 @@
 - [StackOverflow](https://stackoverflow.com/questions/tagged/ibm-watson)
 - [GitHub](https://github.com/IBM-Watson)
 
-## Services provided by IBM Watson
+## Solutions provided by IBM Watson
+Watson provides solutions to manage the full AI lifecycle, from preparing the data, building the AI models, and deploying into production.
 - Watson Developer Cloud (WDC)
 - Watson Studio
+- Watson Machine Learning
+- Watson OpenScale
 
 ## Services within WDC
 - Assistant V1
