@@ -64,7 +64,7 @@ Here's everything you need to start building with Watson.
 
 ## Prerequisites
 1. Create free account on [IBM Cloud](https://cloud.ibm.com/)
-1. Install WDC SDK for the language of your choice, e.g. Python SDK(https://github.com/watson-developer-cloud/python-sdk)
+1. Install WDC SDK for the language of your choice, e.g. [Python SDK](https://github.com/watson-developer-cloud/python-sdk)
 ```
 pip install --upgrade ibm-watson
 ```
@@ -103,15 +103,15 @@ curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --da
 ```
 
 For the obtained credentials, replace
-{apikey}    by `s1jsa-wm19ASXTXywnzw6ECd0xX`
-{url}       by `https://gateway-lon.watsonplatform.net/language-translator/api`
+- {apikey}    by `s1jsa-wm19ASXTXywnzw6ECd0xX`
+- {url}       by `https://gateway-lon.watsonplatform.net/language-translator/api`
 
 Issue the complete command at the prompt
 ```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
 ```
 
-If everything goes well, you'll get a result from Watson in JSON format!
+If everything goes well, you'll get Spanish result from Watson in JSON format!
 ```
 {
   "translations" : [ {
@@ -123,6 +123,10 @@ If everything goes well, you'll get a result from Watson in JSON format!
   "character_count" : 26
 }
 ```
+Result contains the
+- Spanish text for each input line
+- Number of translated words
+- Total number of characters in the result
 
 Another translation from English-to-French:
 ```
@@ -145,6 +149,7 @@ Recognize a language with confidence ratings
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: text/plain" --data "Language Translator translates text from one language to another" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01"
 ```
 
+**This completes our first AI example, using language-translation API's.***
 
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
