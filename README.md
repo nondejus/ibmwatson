@@ -76,7 +76,7 @@ pip install --upgrade watson-developer-cloud
 1. Basics of JSON
 
 
-## Creating first AI service
+## Creating AI service
 1. Login to the [IBM Cloud]( https://cloud.ibm.com/)
 1. Check various resources in the [Catalog](https://cloud.ibm.com/catalog)
 1. Click on **AI** in the left pane to see all AI services.
@@ -106,7 +106,8 @@ For the obtained credentials, replace
 - {apikey}    by `s1jsa-wm19ASXTXywnzw6ECd0xX`
 - {url}       by `https://gateway-lon.watsonplatform.net/language-translator/api`
 
-Issue the complete command at the prompt
+Issue the complete command at the prompt.  
+:warning: *Make sure you are online for this command to succeed.*
 ```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
 ```
@@ -149,7 +150,7 @@ Recognize a language with confidence ratings
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: text/plain" --data "Language Translator translates text from one language to another" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01"
 ```
 
-**Congratulation! You just learnt the basics of IBM Watson that will be useful for developing more complex AI applications.**
+**Congratulation! You just learnt the basics of IBM Watson that will be useful for developing more complex AI applications.**:rocket:
 
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
