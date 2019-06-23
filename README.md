@@ -149,7 +149,7 @@ Recognize a language with confidence ratings
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: text/plain" --data "Language Translator translates text from one language to another" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01"
 ```
 
-**This completes our first AI example, using language-translation API's.***
+**Congratulation! You have learnt basics of IBM Watson for developing AI applications**
 
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
