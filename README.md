@@ -89,8 +89,8 @@ pip install --upgrade watson-developer-cloud
 - Example of API-key: `s1jsa-wm19ASXTXywnzw6ECd0xX`
 - Example of URL: `https://gateway-lon.watsonplatform.net/language-translator/api`
 
-## Giving first AI command
-1. Now you can use cURL to invoke language translation using your service credentials, i.e. {apikey} and {url} copied above.
+## Your first AI command
+Now you can use cURL to invoke language translation using your service credentials, i.e. {apikey} and {url} copied above.
 
 General format of a cURL command is:
 ```
@@ -149,7 +149,7 @@ Recognize a language with confidence ratings
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: text/plain" --data "Language Translator translates text from one language to another" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/identify?version=2018-05-01"
 ```
 
-**Congratulation! You have learnt basics of IBM Watson for developing AI applications**
+**Congratulation! You just learnt the basics of IBM Watson that will be useful for developing more complex AI applications.**
 
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
