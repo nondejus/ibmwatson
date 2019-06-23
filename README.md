@@ -129,12 +129,12 @@ Result contains the
 - Number of translated words
 - Total number of characters in the result
 
-Another translation from English-to-French:
+Another translation, this time from English-to-French (en-fr):
 ```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" --data "{\"text\": [\"I am learning IBM Watson! \"], \"model_id\":\"en-fr\"}" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
 ```
 
-This time the result is in French!
+Starting learning French!
 ```
 {
   "translations" : [ {
