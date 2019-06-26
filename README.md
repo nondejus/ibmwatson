@@ -1,7 +1,8 @@
-# Evangelizing [IBM Watson](https://www.ibm.com/watson "Watson Homepage"), the enterprise A.I. platform from IBM
-IBM Watson is named after IBM's first CEO, Thomas J. Watson (1874-1956).
+# Evangelizing [IBM Watson](https://www.ibm.com/watson "Watson Homepage")
 
-Watson came to highlight after winning $1 million in quiz tournament Jeopardy! of 2012, against legendary champions Brad Rutter and Ken Jennings.
+IBM Watson is an enterprise A.I. platform, named after IBM's first CEO, Thomas J. Watson (1874-1956).
+
+Watson came to highlight after winning $1 million in quiz tournament Jeopardy! of 2011, against legendary champions Brad Rutter and Ken Jennings.
 
 <details>
   
