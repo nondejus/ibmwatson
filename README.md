@@ -157,6 +157,8 @@ curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: tex
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
 
+Here is the complete documentation for the [language translation service](https://cloud.ibm.com/apidocs/language-translator)
+
 ## Questions
 If you are having difficulties using the APIs or have a question about the IBM Watson Services, please ask a question on
 [dW Answers](https://developer.ibm.com/answers/questions/ask/?topics=watson)
