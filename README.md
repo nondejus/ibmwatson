@@ -89,6 +89,8 @@ pip install --upgrade watson-developer-cloud
 - Example of API-key: `s1jsa-wm19ASXTXywnzw6ECd0xX`
 - Example of URL: `https://gateway-lon.watsonplatform.net/language-translator/api`
 
+:warning: *You are responsible for securing your own credentials. Any user with your service credentials can access your service instances!*
+
 ## Your first AI command
 Now you can use cURL to invoke language translation using your service credentials, i.e. {apikey} and {url} copied above.
 
