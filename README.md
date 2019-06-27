@@ -74,8 +74,9 @@ Versions prior to 3.0.0 can be installed using:
 pip install --upgrade watson-developer-cloud
 ```
 1. cURL : Pre-installed in Linux; download [curl for Windows](https://curl.haxx.se/download.html)
+1. Basics of Python
+1. Basics of RESTful API's
 1. Basics of JSON
-
 
 ## Creating AI service
 1. Login to the [IBM Cloud]( https://cloud.ibm.com/)
