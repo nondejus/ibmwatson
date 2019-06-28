@@ -106,19 +106,23 @@ cURL command for WDC, using apikey, url and JSON format, for English-to-Spanish(
 curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "{url}/v3/translate?version=2018-05-01"
 ```
 
-Note that a long command can be split into multiple lines, with the end-of-line continuation character as a backslash `\` in Linux and a caret `^` in Windows.
+:dart: A long command can be split into multiple lines, with the end-of-line continuation character as a backslash `\` in Linux and a caret `^` in Windows.
 
 For the obtained credentials, replace
 - {apikey}    by `s1jsa-wm19ASXTXywnzw6ECd0xX`
 - {url}       by `https://gateway-lon.watsonplatform.net/language-translator/api`
 
-Issue the complete command at the prompt (shown below in multiple lines for Windows)  
-:warning: *Make sure you are online for this command to succeed.*
+:dart: Use a plain-text editor to make the complete long command (shown below in multiple lines for Windows)  
+
 ```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" ^
 --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" ^
 "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
 ```
+
+Issue the complete command at the prompt.
+:warning: *Make sure you are online for this command to succeed.*
+
 If everything goes well, you'll get Spanish result from Watson in JSON format!
 ```
 {
