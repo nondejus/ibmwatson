@@ -1,6 +1,6 @@
 # Evangelizing [IBM Watson](https://www.ibm.com/watson "Watson Homepage")
 
-IBM Watson is an enterprise A.I. platform, named after IBM's first CEO, Thomas J. Watson (1874-1956).
+IBM Watson is an enterprise A.I. platform, named after IBM's first CEO Thomas J. Watson (1874-1956).
 
 Watson came to highlight after winning $1 million in quiz tournament Jeopardy! of 2011, against legendary champions Brad Rutter and Ken Jennings.
 
@@ -106,16 +106,22 @@ cURL command for WDC, using apikey, url and JSON format, for English-to-Spanish(
 curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "{url}/v3/translate?version=2018-05-01"
 ```
 
+Note that a long command can be split into multiple lines, with the end-of-line continuation character as a backslash `\` in Linux and a caret `^` in Windows.
+
 For the obtained credentials, replace
 - {apikey}    by `s1jsa-wm19ASXTXywnzw6ECd0xX`
 - {url}       by `https://gateway-lon.watsonplatform.net/language-translator/api`
 
-Issue the complete command at the prompt.  
+Issue the complete command at the prompt (shown below in multiple lines for Windows)  
 :warning: *Make sure you are online for this command to succeed.*
 ```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
 ```
-
+```
+curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" ^
+--data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" ^
+"https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
+```
 If everything goes well, you'll get Spanish result from Watson in JSON format!
 ```
 {
