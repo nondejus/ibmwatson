@@ -115,9 +115,6 @@ For the obtained credentials, replace
 Issue the complete command at the prompt (shown below in multiple lines for Windows)  
 :warning: *Make sure you are online for this command to succeed.*
 ```
-curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
-```
-```
 curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: application/json" ^
 --data "{\"text\": [\"Hello, world! \", \"How are you?\"], \"model_id\":\"en-es\"}" ^
 "https://gateway-lon.watsonplatform.net/language-translator/api/v3/translate?version=2018-05-01"
