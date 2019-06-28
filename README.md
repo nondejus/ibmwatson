@@ -121,6 +121,7 @@ curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: app
 ```
 
 Issue the complete command at the prompt.
+
 :warning: *Make sure you are online for this command to succeed.*
 
 If everything goes well, you'll get Spanish result from Watson in JSON format!
