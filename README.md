@@ -164,6 +164,15 @@ curl -X POST -u "apikey:s1jsa-wm19ASXTXywnzw6ECd0xX" --header "Content-Type: tex
 
 **Congratulation! You just learnt the basics of IBM Watson that will be useful for developing more complex AI applications.**:rocket:
 
+## Python App for Translation
+Now we can develop a Python standalone app for language translation.
+
+Following references will help to go ahead!
+- [Official documentation on language translation](https://www.ibm.com/watson/services/language-translator/)
+- [Reference code for language translation](https://cloud.ibm.com/apidocs/language-translator?code=python#translate)
+- [Example code for language translation](https://github.com/watson-developer-cloud/python-sdk/blob/master/examples/language_translator_v3.py)
+
+
 ## Documentation
 You can access the documentation by selecting API Reference in the Watson menu (**Watson -> API Reference**).
 
